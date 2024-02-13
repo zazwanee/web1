@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krabi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <!-- เเสดงเเบนเนอร์-->
+    <div class="container-fluid " mt-3>
+
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)">Link</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="text" placeholder="Search">
+                        <button class="btn btn-primary" type="button">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                 <center>   <img src="qa.png" alt="Los Angeles" class="d-block w-100"></center>
+                </div>
+                <div class="carousel-item">
+                  <center> <img src="sa.png" alt="Chicago" class="d-block w-100"></center> 
+                </div>
+                <div class="carousel-item">
+                  <center>  <img src="Krabi.png" alt="New York" class="d-block w-100"></center>
+                </div>
+            </div> <br>
+
+
+
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <!-- Jumbotron / ประวัติบริษัท -->
+        <div class="container-fluid mt-4 p-5 bg-secondary text-white rounded">
+            <h1>Krabi</h1>
+            <p>กระบี่ เป็นจังหวัดหนึ่งในภาคใต้ของประเทศไทย เป็นเมืองท่องเที่ยวที่มีชื่อเสียงแห่งหนึ่งของภาคใต้
+                มีแหล่งท่องเที่ยวหลายแห่ง เช่น หาดทรายขาว น้ำทะเลใส ปะการัง ถ้ำ และหมู่เกาะน้อยใหญ่กว่า 100 เกาะ
+                และเป็นที่ตั้งของเรือนรับรองที่ประทับแหลมหางนาค
+        </div> <br>
+
+    </div>
+    <div claas="container mt-3 ">
+        <h2> สถานที่น่าเที่ยว</h2>
+        <p>3 สถานที่เด่นๆในกระบี่</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ชื่อสถานที่</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>เกาะพีพี</td>
+                </tr>
+                <tr>
+                    <td>ลานปูดำ (Mud Crabs Sculpture)</td>
+                </tr>
+                <tr>
+                    <td>สุสานหอย 75 ล้านปี (Fossil Shell Beach Cemetery)</td>
+                </tr>
+                <td>รูปสถานที่</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+  
+
+    <div class="container mt-3">
+        <h2>Rounded Corners</h2>
+        <p>The .rounded class adds rounded corners to an image:</p>            
+        <img src="ga.png" class="rounded" alt="Cinque Terre" width="304" height="236"> 
+        <img src="o.png" class="rounded" alt="Cinque Terre" width="304" height="236"> 
+        <img src="we.png" class="rounded" alt="Cinque Terre" width="304" height="236">
+      </div><br>
+
+      
+      <div class="alert alert-danger alert-dismissible">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>Danger!</strong> This alert box could indicate a dangerous or potentially negative action.
+      </div><br>
+
+      <div class="container mt-3">
+        <h2>Button Styles</h2>
+        <button type="button" class="btn">Basic</button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-link">Link</button>      
+      </div><br>
+
+      <div class="container mt-3">
+        <h2>Card Image</h2>
+        <p>Image at the top (card-img-top):</p>
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="123.jpg" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">John Doe</h4>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+        <br>
+
+        <div class="container mt-3">
+            <h2>Simple Collapsible</h2>
+            <p>Click on the button to toggle between showing and hiding content.</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple collapsible</button>
+            <div id="demo" class="collapse">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+          </div> <br>
+
+          <div class="container mt-3">
+            <h3>Modal Example</h3>
+            <p>Click on the button to open the modal.</p>
+            
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+              Open modal
+            </button>
+          </div>
+          
+          <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Modal Heading</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="modal-body">
+                  Modal body..
+                </div>
+          
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+          
+              </div>
+            </div>
+          </div>
+      
+
+      
+    
